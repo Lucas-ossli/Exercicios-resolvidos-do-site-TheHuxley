@@ -3,7 +3,7 @@
 using namespace std;
 
 main(){
-    //mais de 2 veículos em R$ 12.89 por mês por cada veículo extra
+    //mais de 2 veÃ­culos em R$ 12.89 por mÃªs por cada veÃ­culo extra
 
     
 
@@ -17,7 +17,7 @@ main(){
            printf ("%.2f\n%d", acumulador, residencia);
             return 0;
         }
-        if(veiculos>2){
+        else if(veiculos>2){
             acumulador = acumulador+((veiculos-2)*12.89 ) ;
             residencia ++;
         }
@@ -27,8 +27,8 @@ main(){
     //e exiba o total mensal arrecadado com as multas, e a quantidade de casas multadas.
     
     
-    //Escreva um programa que receba como entrada a quantidade de veículos 
-    // de várias residências, até que seja informado o valor 999, e exiba o 
+    //Escreva um programa que receba como entrada a quantidade de veÃ­culos 
+    // de vÃ¡rias residÃªncias, atÃ© que seja informado o valor 999, e exiba o 
     //total mensal arrecadado com as multas, e a quantidade de casas multadas 
 
     return 0;
