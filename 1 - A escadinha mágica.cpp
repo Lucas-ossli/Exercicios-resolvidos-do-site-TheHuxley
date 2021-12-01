@@ -3,15 +3,17 @@ using namespace std;
 
 main(){
 	//Zelda e seus amigos tiveram uma brilhante ideia durante as aulas
-    //da monitoria da cadeira de introdução a programação: que tal fazer 
-	//um programa que, dado um número n (1 <= n <= 40) printa na tela os
-	// numeros de 1 até o número da iteração atual, sendo que serão feitas 
-	//n iterações, como demonstrado no exemplo a seguir:
+    //da monitoria da cadeira de introduÃ§Ã£o a programaÃ§Ã£o: que tal fazer 
+	//um programa que, dado um nÃºmero n (1 <= n <= 40) printa na tela os
+	// numeros de 1 atÃ© o nÃºmero da iteraÃ§Ã£o atual, sendo que serÃ£o feitas 
+	//n iteraÃ§Ãµes, como demonstrado no exemplo a seguir:
 	
 	int n;
 	
 	cin>>n;
-	
+	// x = colunas // i = linhas 
+	// dentro do primeiro {for} o valor de x ira representar a quantidade de colunas comeÃ§ando da menor e indo atÃ© a maior,
+	//e no segundo {for} i ira escrever atÃ© o mÃ¡ximo de colunas disponÃ­vel no momento
 	for(int x=1 ; x<=n ; x++){
 	for(int i=1; i<=x ; i++){
 		cout<<i;
@@ -25,7 +27,7 @@ main(){
 	
 	}
 	
-	//A sequência (1 ... M), onde M é o numero da iteração 
-	//atual do laço, que será executada n vezes.
+	//A sequÃªncia (1 ... M), onde M Ã© o numero da iteraÃ§Ã£o 
+	//atual do laÃ§o, que serÃ¡ executada n vezes.
 	return 0;
 }
