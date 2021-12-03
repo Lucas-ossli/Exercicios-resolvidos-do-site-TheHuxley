@@ -2,6 +2,11 @@
 #include <stdio.h>
 using namespace std;
 
+
+
+//Link para o exercício: https://www.thehuxley.com/problem/3569
+
+
 main(){
 	int a, b, soma;
 	float subtracao;
