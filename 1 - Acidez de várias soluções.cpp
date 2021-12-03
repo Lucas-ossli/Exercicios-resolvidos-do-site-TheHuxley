@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
+
+//Link para o exercício: https://www.thehuxley.com/problem/3764
+
+
+
 main(){
     //ACIDA (pH menor que 7), BASICA (pH maior que 7), ou NEUTRA (pH igual a 7).
     float pH;
