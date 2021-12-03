@@ -2,6 +2,9 @@
 #include <stdlib.h>
 using namespace std;
 
+
+//Link para o exercÃ­cio: https://www.thehuxley.com/problem/3417
+
 main(){
 	
 	
@@ -28,8 +31,8 @@ main(){
 	}
 	}
 	
-	// obs: tive que ''trapecear'' no if acumulador porque o exercício foi feito de forma errada
-	// você pode verificar no exemplo de Entrada, fazendo as contas ele só vai completar o primeiro loop
-	// de 1000 inteiros no numero 33 no qual tornaria o proxino N = 8 e não 7 como o exemplo amostra, por isso
+	// obs: tive que ''trapecear'' no if acumulador porque o exercÃ­cio foi feito de forma errada
+	// vocÃª pode verificar no exemplo de Entrada, fazendo as contas ele sÃ³ vai completar o primeiro loop
+	// de 1000 inteiros no numero 33 no qual tornaria o proxino N = 8 e nÃ£o 7 como o exemplo amostra, por isso
 	// coloquei +98 no if para a conta poder fechar
 }
