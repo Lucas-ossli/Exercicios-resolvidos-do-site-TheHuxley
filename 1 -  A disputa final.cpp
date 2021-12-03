@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//Link para o exercício: https://www.thehuxley.com/problem/3327?locale=pt_BR
+
 main(){
 	
 	int a;
