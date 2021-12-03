@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+
+//Link para o exercício: https://www.thehuxley.com/problem/2
+
+
 main(){
     int a,b,c;
 
