@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//link do exercício: https://www.thehuxley.com/problem/2197?locale=pt_BR
+//link do exercÃ­cio: https://www.thehuxley.com/problem/2197?locale=pt_BR
 
 int main(){
 	
